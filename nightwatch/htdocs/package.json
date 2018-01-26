@@ -1,0 +1,21 @@
+{
+  "name": "html5exam_nightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "demo": "nightwatch ./tests/demo.js",
+    "demo1": "nightwatch ./tests/demo1.js",
+    "demo2": "nightwatch ./tests/demo2.js -e headless",
+    "demo3": "nightwatch ./tests/demo3.js -e default,firefox"
+  },
+  "author": "sakanaka",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.35.0",
+    "geckodriver": "^1.10.0",
+    "nightwatch": "^0.9.19",
+    "selenium-server": "^3.8.1"
+  }
+}
